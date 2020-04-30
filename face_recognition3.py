@@ -101,10 +101,10 @@ dbconnect.close();'''
 #now sending the email
 
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-server.login("adamhallab", "damzeezationCR7!")
+server.login("Enter email address here", "Enter email password here")
 server.sendmail(
-    "adamhallab@gmail.com",
-    "adamhallab@gmail.com",
+    "From email",
+    "To email",
     "\n{} Has Checked Out at {} on {}".format(myName, current_time, date))
 server.quit()
 
