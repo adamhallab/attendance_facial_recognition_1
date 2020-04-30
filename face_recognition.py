@@ -46,8 +46,6 @@ while True:
         if(Id == 1):
             Id = "Adam Hallab"
         #If not exist, then it is Unknown
-        elif(Id == 2):
-            Id = "Jennifer"
         else:
             print(Id)
             Id = "Unknow"
